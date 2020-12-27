@@ -4,7 +4,15 @@
         <style>
             body
             {
+                background-color:black;
+            }
+            #mainBody 
+            {
+                color:wheat;
                 background-color:rgb(1, 22, 1);
+                text-align:center;
+                width:1000px;
+                margin:auto;
             }
             #gameCanvas
             {
@@ -13,7 +21,9 @@
         </style>
     </head>
     <body>
-        <canvas id="gameCanvas" width="600" height="400"></canvas>
+        <div id="mainBody">
+            <canvas id="gameCanvas" width="600" height="400"></canvas>
+        </div>
         <script src="bouncer.js"></script>
     </body>
 </html>
